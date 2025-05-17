@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dein Projekt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎉 Dein erstes Projekt</h1>
+    <a href="index.html">Zurück zur Übersicht</a>
+  </header>
+  <main>
+    <p>Erstelle eine Mini-Webseite mit allem, was du gelernt hast!</p>
+    <textarea id="editor" rows="10">
+<html>
+  <head>
+    <title>Meine erste Seite</title>
+  </head>
+  <body>
+    <h1>Ich kann HTML!</h1>
+    <p>Danke fürs Mitmachen 😄</p>
+  </body>
+</html>
+    </textarea>
+    <button onclick="updatePreview()">Vorschau anzeigen</button>
+    <iframe id="preview"></iframe>
+  </main>
+  <script src="editor.js"></script>
+</body>
+</html>
