@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #0366d6;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #24292e;
+}
+
+button {
+  background-color: #0366d6;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #024ea2;
+}
+
+pre {
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
