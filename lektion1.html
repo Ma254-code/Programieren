@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lektion 1 – HTML Grundlagen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🔤 Lektion 1: HTML Grundlagen</h1>
+    <a href="index.html">Zurück</a>
+  </header>
+  <main>
+    <p>Schreibe deinen ersten HTML-Code:</p>
+    <textarea id="editor" rows="10">
+<h1>Hallo Welt!</h1>
+<p>Ich lerne HTML mit dieser coolen Webseite!</p>
+    </textarea>
+    <button onclick="updatePreview()">Vorschau anzeigen</button>
+    <h2>🔎 Vorschau:</h2>
+    <iframe id="preview"></iframe>
+  </main>
+  <script src="editor.js"></script>
+</body>
+</html>
